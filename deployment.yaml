@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
       - name: my-api
-        image: my-api:latest
-        imagePullPolicy: Never
+        image: jefrex/my-api:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8000
 ---
